@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>W3C/WHATWG Relationship update</title>
+<style>
+.head { margin-bottom: 3em }
+p, li { margin-top: 1.2em;}
+body {
+  max-width: 50em;
+  margin: auto;
+  font-family: sans-serif;
+}
+.number {
+  display: inline-block;
+  width: 6ex;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+#intro > p {
+  margin-left: 0;
+}
+
+a {
+  text-decoration: none;
+}
+a.point {
+  display: block;
+  float: left;
+  margin-left: -4ex;
+  margin-right: 1ex;
+}
+
+:target {
+  background: yellow;
+  color: black;
+}
+
+section#patents_copyrights #p12, section#patents_copyrights #p13 {
+  margin-left: 4ex;
+}
+
+@media print {
+  @page {
+    margin: 1.5cm;
+    @top-left-corner {
+      content: "Last Update: 28 June 2021"
+    }
+    @top-center {
+     content: "**FINAL**"
+    }
+    @bottom-center { content: counter(page) }
+  }
+  body {
+    font-size: 11pt;
+  }
+  a.point {
+    display: none;
+  }
+}
+</style>
+</head>
+<body>
+
+<p>Last Update: June 28, 2021</p>
+
+<h1 id=title>W3C/WHATWG Relationship update</h1>
+
+<section id='preambule'>
+<p id="p1"><a class="point" aria-hidden="true" href="#p1">§ </a>
+This document is an update of the <a
+href="https://www.w3.org/2019/04/WHATWG-W3C-MOU.html">Memorandum of
+Understanding Between W3C and WHATWG</a>, entered May 28, 2019 (“MOU”).
+</p>
+
+<p id="p2"><a class="point" aria-hidden="true" href="#p2">§ </a>
+WHEREAS, W3C and WHATWG have been working together collaboratively under the
+terms of the May 28 MOU;
+</p>
+
+<p id="p3"><a class="point" aria-hidden="true" href="#p3">§ </a>
+THEREFORE, W3C and WHATWG wish to memorialize certain additional agreements. All
+provisions of the MOU continue to apply to the HTML and DOM specifications, and
+will apply to the MOU Update Specifications (defined below) in the same way that
+they apply to the HTML and DOM specifications. To the extent these below terms
+conflict with the MOU, the terms below supersede. All other provisions in the
+MOU remain the same and remain in effect.
+</p>
+
+<p id="p4"><a class="point" aria-hidden="true" href="#p4">§ </a>
+In response to inquiries in the collaborative relationship, WHATWG has
+instituted a policy under which persons who, for various reasons, are unable to
+sign the Contributor and Workstream Participant Agreement as an Entity or as an
+Individual; such persons can now request to be invited.
+</p>
+</section>
+
+<section id='tranfer'>
+<p id="p5"><a class="point" aria-hidden="true" href="#p5">§ </a>
+W3C will transfer the development of the following specifications to WHATWG,
+where they will be published as WHATWG specifications or components thereof: <a
+href="https://www.w3.org/TR/2016/REC-WebIDL-1-20161215/">Web IDL</a>, <a
+href="https://www.w3.org/TR/2018/REC-html-media-capture-20180201/">HTML Media Capture</a>, <a
+href="https://www.w3.org/TR/2020/WD-worklets-1-20200908/">Worklets</a>, <a
+href="https://www.w3.org/TR/2020/WD-resource-hints-20201005/">Resource Hints</a>,
+<a href="https://www.w3.org/TR/2019/CR-preload-20190626/">Preload</a>, <a
+href="https://w3c.github.io/media-playback-quality/">Media Playback Quality</a>.
+Similar to the HTML and DOM specifications, these specifications will be
+developed principally in the WHATWG, following the <a
+href="https://whatwg.org/working-mode">WHATWG Working Mode</a> and, in the event
+of disagreement, the Conflict Resolution process outlined in the MOU shall be
+followed.
+</p>
+
+<p id="p6"><a class="point" aria-hidden="true" href="#p6">§ </a>
+This collaboration will enable proper maintenance of the Web IDL specification
+and support W3C Working Groups that depend on the Web IDL language to describe
+their APIs. W3C will discontinue any specification release plans for these
+specifications, and the Web IDL editors are committed to address issues and
+resolve pull requests raised by W3C Groups. W3C and WHATWG will continue jointly
+developing tools to support the Web IDL specification outside the scope of the
+MOU and MOU Update.
+</p>
+
+<p id="p7"><a class="point" aria-hidden="true" href="#p7">§ </a>
+WHATWG will integrate the W3C specifications on <a
+href="https://www.w3.org/TR/2018/REC-html-media-capture-20180201/">HTML Media
+Capture</a>, <a
+href="https://www.w3.org/TR/2020/WD-worklets-1-20200908/">Worklets</a>, <a
+href="https://www.w3.org/TR/2020/WD-resource-hints-20201005/">Resource
+Hints</a>, <a
+href="https://www.w3.org/TR/2019/CR-preload-20190626/">Preload</a>, <a
+href="https://w3c.github.io/media-playback-quality/">Media Playback Quality</a>
+in the HTML and DOM specifications. The objective is to consolidate the
+specification of the elements in the HTML specification rather than having the
+definition and the specification of the behavior in different documents.
+</p>
+
+<p id="p8"><a class="point" aria-hidden="true" href="#p8">§ </a>
+Parties agree to extend the scope of the collaboration process to include (“MOU
+Update Specifications”):
+</p>
+
+<ol>
+
+<li id="li1">
+Specifications that have been newly split from the HTML and DOM
+specifications, with advance notification to the WHATWG Steering Group;
+</li>
+
+<li id="li2">
+The <a href="https://fetch.spec.whatwg.org/">Fetch</a> specification (a
+successor to the <a
+href="https://www.w3.org/TR/2020/SPSD-cors-20200602/">CORS</a> specification);
+and
+</li>
+
+<li id="li3">
+The <a href="https://www.w3.org/TR/2016/REC-WebIDL-1-20161215/">Web IDL</a>
+specification.
+</li>
+
+</ol>
+
+<p id="p9"><a class="point" aria-hidden="true" href="#p9">§ </a>
+W3C shall have the ability, but not the obligation, to endorse these
+specifications as W3C Recommendations, following the process of §§3-5 in the
+<a href="https://www.w3.org/2019/04/WHATWG-W3C-MOU.html">original MOU</a> (in
+alternate working groups as necessary).
+</p>
+
+<p id="p10"><a class="point" aria-hidden="true" href="#p10">§ </a>
+This MOU Update shall take effect on June 30, 2021 and remain in force until
+terminated as described herein. Either Party may give notice of intent to
+terminate this MOU Update, in whole or for particular covered specifications.
+The terminating Party shall give nine (9) months’ notice, to afford the other
+Party the opportunity to discuss amended terms for collaboration or adapt its
+practices to the absence of such collaboration. The Binding Commitments as
+outlined in the MOU will apply to this MOU Update and survive the termination of
+this MOU Update.
+</p>
+
+<p id="p11"><a class="point" aria-hidden="true" href="#p11">§ </a>
+Future agreements relating to deliverables to be moved or copied between the
+parties will be recorded in <a
+href="https://github.com/w3c/whatwg-coord">https://github.com/w3c/whatwg-coord</a>.
+</p>
+</section>
+<section id='patents_copyrights'>
+<p id="ppc"><a class="point" aria-hidden="true" href="#ppc">§ </a> Patent and Copyright</p>
+
+<p id="p12"><a class="point" aria-hidden="true" href="#p12">§ </a>
+The provisions in the Patent and Copyright section of the MOU remain in force,
+and apply to the MOU Update Specifications in the same way they applied to the
+HTML and DOM specifications as outlined in the MOU. W3C will take best efforts
+to provide guidance to participants who seek to obtain patent commitments on the
+identified specifications before specifications are moved to WHATWG, to the
+extent the specifications are not yet Recommendations.
+</p>
+
+<p id="p13"><a class="point" aria-hidden="true" href="#p13">§ </a>
+In addition, W3C confirms that W3C and each of its Hosts grants to anyone,
+including WHATWG, WHATWG Steering Group Member companies and their employees,
+and WHATWG specification editors, contributors and implementers, a royalty-free
+license under the <a href="https://www.w3.org/Consortium/Legal/2015/copyright-software-and-document">W3C Software and Document Notice and License (version that
+took effect on May 13, 2015)</a> to reproduce, distribute, create derivative works
+of, publicly perform and publicly display the following specifications: <a
+href="https://www.w3.org/TR/2016/REC-WebIDL-1-20161215/">Web IDL</a>, <a
+href="https://www.w3.org/TR/2018/REC-html-media-capture-20180201/">HTML Media Capture</a>, <a
+href="https://www.w3.org/TR/2020/WD-worklets-1-20200908/">Worklets</a>, <a
+href="https://www.w3.org/TR/2020/WD-resource-hints-20201005/">Resource Hints</a>,
+<a href="https://www.w3.org/TR/2019/CR-preload-20190626/">Preload</a>, <a
+href="https://w3c.github.io/media-playback-quality/">Media Playback Quality</a>.
+Parties confirm that under this MOU Update, WHATWG, WHATWG Steering Group Member
+companies, and WHATWG editors and contributors will reproduce these
+specifications within and develop, modify and distribute these specifications
+through WHATWG’s specification development repositories, websites and resources.
+</p>
+</section>
+
+<p id="p14"><a class="point" aria-hidden="true" href="#p14">§ </a>
+The provisions in the Patent and Copyright section of the MOU and in this MOU
+Update will survive termination of the MOU Update.
+</p>
+
+</body>
+</html>
