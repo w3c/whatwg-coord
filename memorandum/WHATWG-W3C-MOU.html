@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DRAFT Memorandum of Understanding Between W3C and WHATWG</title>
+<style>
+.head { margin-bottom: 3em }
+p { margin-top: 1.2em;}
+body {
+  max-width: 50em;
+  margin: auto;
+  font-family: sans-serif;
+}
+.number {
+  display: inline-block;
+  width: 6ex;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+h1 { font-size: 125%; }
+section > p {
+  margin-left: 4ex;
+}
+#intro > p {
+  margin-left: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media print {
+  @page {
+    margin: 1.5cm;
+    @top-left-corner {
+      content: "Last Update: April 2019"
+    }
+    @top-center {
+     content: "**DRAFT**"
+    }
+    @bottom-center { content: counter(page) }
+  }
+  body {
+    font-size: 11pt;
+  }
+  #signatures {
+    page-break-inside: avoid;
+  }
+  #appendix1 {
+    page-break-before: always;
+  }
+}
+</style>
+</head>
+<body>
+<div class='head'>
+    <p id='date'>Last Update: April 2019</p>
+    <h1 id='title'>DRAFT Memorandum of Understanding Between W3C and WHATWG</h1>
+</div>
+
+<div id='intro'>
+<p>
+This Memorandum of Understanding (“<abbr title="Memorandum of Understanding">MOU</abbr> ”) is entered into this _____, 2019, between the World Wide Web Consortium (“<abbr title="World Wide Web Consortium">W3C</abbr>”), with its principal place of business located at 32 Vassar Street, Room 32-386, Cambridge, MA, 02139 USA; and the WHATWG.
+</p>
+<p>
+Whereas W3C is an international community where Member organizations, a full-time staff, and the public work together to develop Web Standards. W3C’s mission is to lead the Web to its full potential.
+</p>
+<p>
+Whereas WHATWG is a community of people interested in evolving the web through standards and tests and working together to create standards implementable in web browsers;
+</p>
+<p>
+Whereas W3C and WHATWG both contribute to the development of the Web;
+</p>
+<p>
+Whereas W3C and WHATWG want to work together to advance the open Web platform;
+</p>
+<p>
+Whereas W3C and WHATWG believe that the Web community is best served by a single development stream for each of the Web’s specifications, due to the high costs of specification divergence and of focusing parts of the community on different documents;
+</p>
+<p>
+Whereas W3C and WHATWG want to provide an environment in which all of the Web’s stakeholders can communicate their needs, interests, and interoperability considerations;
+</p>
+<p>
+Whereas W3C and WHATWG want to continue to enhance the development of the Web platform as interoperable, royalty-free, globally available, accessible to all, secure, and private.
+</p>
+<p>
+Now, therefore, in furtherance of the desire to voluntarily cooperate with each other on the processes, mechanisms, and plans set forth in this MOU, W3C and WHATWG (“Parties”) agree as follows:
+</p>
+<p>
+This MOU describes a collaboration process for the development of the HTML and DOM specifications published (in the past or future) by both W3C and WHATWG,  where such specifications include specifications that are in the WHATWG versions of HTML and DOM but have been published separately at W3C. This MOU also sets forth certain publication mechanisms for the Parties around specifications published by W3C or WHATWG, and a transition plan for the W3C around the listed specifications. The Parties may expand the scope of the collaboration process set forth in this MOU beyond the HTML and DOM specifications only by a subsequent MOU that sets forth such expanded scope.
+</p>
+<p>
+Except for the terms set forth in (i) this paragraph and (ii) the “Term and Termination”, “Limitation of Liability”, “Choice of Law and Venue”, “Complete Agreement”, “Independent Parties”, “No Waiver; Severability”, and “Notices” sections below ((i) and (ii) collectively, the “Binding Commitments”), the terms of this MOU reflect only a voluntary statement of intent by the Parties to engage in the proposed collaboration process described further below.  Any and all terms that are not Binding Commitments (“Non-Binding Commitments”) do not constitute a binding agreement between the Parties in any respect.
+</p>
+</div>
+<section id='plan'>
+  <h2><span class='number'>1</span>	Plan for HTML and DOM specifications</h2>
+
+<p style='margin-left: 0'>
+    <span class='number'>2</span>	HTML and DOM shall be developed principally in the WHATWG, following WHATWG Living Standard (<abbr title="Living Standard">LS</abbr>) specification process.
+    W3C intends to give input to and endorse WHATWG Review Drafts to become W3C Recommendations, through the W3C Process from Candidate Recommendation (<abbr title="Candidate Recommendation">CR</abbr>)
+    through Proposed Recommendation (<abbr title="Proposed Recommendation">PR</abbr>) to Recommendation (<abbr title="Recommendation">REC</abbr>). Our Design Goal is that the W3C CR, PR, and REC, and the WHATWG Review Draft are the same document.
+</p>
+</section>
+<section id='cooperation'>
+  <h2><span class='number'>3</span>	Cooperation Process</h2>
+<ol>
+<li>
+W3C shall propose to its Membership to charter a Working Group, referred to herein as the “HTML Working Group” (HTML WG, although it may take a different name). The HTML WG charter will be to assist the W3C community in raising issues and proposing solutions for the HTML and DOM specifications, and to bring Review Drafts to Recommendation.
+</li>
+<li>
+The discussions of the HTML WG should ultimately be reflected in the WHATWG GitHub repositories, with the aim that issues be resolved in the WHATWG working mode. In the event that a person raising an issue feels that the issue has not been fairly resolved by WHATWG, the HTML WG may help to explain the resolution. To achieve this, the WG may have meetings, repositories, etc. in which they engage the community. While the HTML WG attempts to work with the WHATWG editors to achieve consensus, there may be times that the HTML WG and the WHATWG editors are unable to find consensus. They shall then engage in the conflict resolution process detailed below.
+</li>
+<li>
+W3C shall encourage the community (users and developers alike) and horizontal review groups to contribute directly to the WHATWG HTML and DOM repositories; raising issues, proposing solutions, commenting on proposed solutions, and indicating support or otherwise for proposals. Those contributions will be subject to the WHATWG IPR Policy (see “<a href='#patent_and_copyright'>Patent and Copyright</a>”, below).  The WHATWG repositories may add custom labels to enable the HTML WG to organize and manage issues of interest to the W3C community.
+</li>
+<li>
+When WHATWG publishes a Review Draft of its HTML or DOM Living Standards, W3C may endorse this Review Draft as a CR, PR, and/or REC, with both W3C and WHATWG logos, per the following procedure:
+<ol type="a">
+<li>
+The HTML WG works to demonstrate to the Director that the contents of the WHATWG Review Draft have had wide review, issues have been addressed, and the contents have sufficient CR exit criteria as defined by W3C Process. The HTML WG will look for a consensus of its participants to advance each Review Draft as a CR and will have worked to engage the community to make this consensus achievable.
+</li>
+<li>
+This document then goes through the REC process including AC review, and if there are no objections, becomes a W3C Recommendation. At each stage (CR, PR, REC) of this process, WHATWG would add the W3C's endorsement to the appropriate Review Draft, in a prominent place, including a W3C logo and stating that the Review Draft is a W3C CR, PR, and/or REC.
+</li>
+<li>
+Multiple endorsements will be added to the same document rather than creating separate documents for each stage.
+</li>
+<li>
+As the W3C process requires implementation experience to advance beyond CR, while WHATWG process requires only implementation commitments, Review Drafts will include feature implementation status annotations in the margin. The granularity of the annotations should be such that they can be reasonable indicators of which features have implementation experience.  The status indicators will be sourced from an external site or set of test cases, such as caniuse or wpt.fyi. The CR endorsement will mention that all features that do not have two implementations according to the annotations are at risk. The PR and REC endorsement will mention that all features which do not have two implementations are considered informative, not normative, for W3C PR/REC purposes.  The necessary annotations already exist in the HTML Living Standard, and the mechanism will be added to the DOM Living Standard. WHATWG will welcome pull requests to add further annotations as needed. WHATWG will not add manually managed or finer-grained annotations for this purpose. W3C and WHATWG will collaborate on tooling to enhance the annotations.
+</li>
+</ol>
+</li>
+<li>
+W3C may charter Working Groups to develop extensions to HTML. WHATWG agrees to work with W3C to define appropriate extension points in HTML or DOM.  Issues with or enhancements to those extension points shall be discussed in the WHATWG HTML and DOM repositories and with the W3C TAG.
+</li>
+<li>
+W3C and WHATWG shall continue to use and maintain web-platform-tests (WPT) as the testing infrastructure for the platform.
+</li>
+<li>
+W3C and WHATWG jointly agree that the TAG may provide non-binding technical advice on any complex disagreements.
+</li>
+<li>
+W3C has no obligation to bring every Review Draft to REC, but expects to do so at least once per 12 month period. Consistent with WHATWG’s policies and normal course of operation, a new WHATWG Review Draft will be published approximately every six months. The HTML WG can take the newly published Review Drafts for the HTML and DOM specifications  to REC. The HTML WG may request that WHATWG publish a WHATWG Review Draft outside the normal course of operation; WHATWG will make reasonable efforts to produce such Review Draft.
+</li>
+<li>
+The Cooperation Process above addresses the anticipated common case, in which the WHATWG Review Draft meets W3C REC criteria and there are no objections. The Parties agree to the following exception process to deal with conflicts and lack of agreement.
+</li>
+</ol>
+
+</section>
+<section id='conflict'>
+  <h2><span class='number'>4</span>	Conflict Resolution</h2>
+<ol>
+<li>
+When there is an unresolved objection, all Parties agree to make substantial effort to resolve the conflict so that W3C can publish a REC with no normative differences from the WHATWG Review Draft of an HTML or DOM specification. If the HTML WG cannot reach consensus to bring a desired Review Draft forward on the REC track, it must ensure that appropriate issues are raised or encourage the editor to re-open issues in the WHATWG repository.
+</li>
+<li>
+The Parties and participants agree to take the following escalation steps, each step to be reached only once the preceding steps have been given good faith efforts to reach consensus:
+<ol type='A'>
+<li>
+The HTML WG shall attempt to resolve the objection, working to explain its members’ concerns to the WHATWG editors and other Workstream participants (through their GitHub repository) and to explain the decision of the WHATWG to those raising the concerns;
+</li>
+<li>
+The HTML WG shall escalate the disagreement to the WHATWG Steering Group to help resolve the issue;
+</li>
+<li>
+The HTML WG shall explore techniques other than having a HTML or DOM specification with normative differences such as an extension specification; or as non-normative advice;
+</li>
+<li>
+The HTML WG, WHATWG Steering Group, an individual objector, or W3C Groups with dependencies on WHATWG specifications, including horizontal review responsibilities, may request technical advice from the TAG. The TAG may consult other experts, including for expertise not currently available on the TAG. The TAG may be able to find some consensus or explain to one side or the other any negative impacts of their position;
+</li>
+<li>
+The issue shall go to the W3C Director, who examines the arguments using the record of the tracked issue, the HTML WG analysis, and the TAG analysis.
+<ol>
+<li>
+If the Director overrules the objections, then W3C continues its process to publish the HTML or DOM Review Draft as a REC;
+</li>
+<li>
+If the Director sustains the objection, the Director and/or the TAG may choose to re-open the appeal to the WHATWG Steering Group with any new data or rationale;
+</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>
+The W3C may choose to:
+<ol type='A'>
+<li>
+decline to endorse a particular Review Draft as a Recommendation and continue the discussion for the next Review Draft; or
+</li>
+<li>
+if the differences are not too entangled with the rest of the spec, the REC might be issued as the Review Draft plus a companion document.
+</li>
+</ol>
+</li>
+<li>
+Finally, if W3C management and the WHATWG Steering Group cannot reach agreement on a single HTML or DOM standard through direct negotiations, W3C may (under rights granted by the Creative Commons Attribution International 4.0 (CC BY 4.0) copyright license, or a successor copyright license that is at least as permissive, as specified in the WHATWG Intellectual Property Rights policy) publish a Recommendation with differences, and WHATWG may terminate this MOU.
+</li>
+</ol>
+
+</section>
+<section id='format'>
+  <h2><span class='number'>5</span>	Format of jointly published documents</h2>
+
+<p style='margin-left: 3ex;'>
+The documents that are both WHATWG Review Drafts and W3C CR, PR, or RECs shall:
+</p>
+<ol style='margin-top: 0'>
+<li>
+	Be published on <a href='https://whatwg.org/'>whatwg.org</a>;
+<p style='margin-left: 4ex;margin-top: 0;'>
+To protect reader expectations of privacy, if <a href='https://whatwg.org/'>whatwg.org</a> does not have a privacy policy that meets industry norms, W3C may change the <a href='https://www.w3.org/TR/'>/TR</a> links to point to self-hosted copies. This provision will not take effect until 6 months after the effective date of this MOU.
+</p>
+</li>
+<li>
+	Be backed up by W3C for assurance of persistence (these backups will not be publicly accessible);
+</li>
+<li>
+	Be accessible via a URL on <a href='https://www.w3.org/'>w3.org</a> that returns a 302 redirect to the URL on <a href='https://whatwg.org/'>whatwg.org</a>;
+</li>
+<li>
+	Indicate that copyright is jointly owned by W3C and WHATWG, indicating WHATWG and the WHATWG Steering Group Members;
+</li>
+<li>
+	Make reasonable efforts to conform to WCAG Level AA, by using appropriate tools and styles and correcting Level AA conformance issues when identified;
+</li>
+<li>
+	Identify “At Risk” features at CR, via enumeration and a statement that features not demonstrating sufficient implementation experience are at risk;
+</li>
+<li>
+	Be identified as one or more of CR, PR, or REC (with different dates for reaching the different statuses), as appropriate;
+</li>
+<li>
+	Be published in a mutually agreed style, as shown in <a href='#appendix1'>Appendix 1</a>;
+</li>
+<li>
+	Include a logo for each organization; and
+</li>
+<li>
+  Display a status box as in <a href='#appendix1'>Appendix 1</a>, once approved as a W3C CR, PR, or REC.
+</li>
+</ol>
+
+</section>
+<section id='referencing'>
+  <h2><span class='number'>6</span>	Normative referencing</h2>
+<p>
+Normative references from W3C specifications to material that is in the HTML and DOM specifications shall reference the <a href='https://whatwg.org/'>whatwg.org</a> Living Standard both in-line and in the Normative References section. W3C advises that W3C specifications also reference the W3C Recommendation in the References section.
+
+</p>
+</section>
+<section id='error'>
+  <h2><span class='number'>7</span>	Error management</h2>
+
+  <ol>
+<li>
+WHATWG does not provide for an errata process. The expectation is that typographical errors and mistakes will be fixed in the Living Standard through its usual process, and will then appear in the W3C version at the next WHATWG Review Draft that becomes a W3C Recommendation.
+</li>
+<li>
+To allow for more urgent errata on a specific WHATWG Review Draft/W3C Recommendation, W3C will provide an errata page, linked from the W3C Recommendation Status section. All urgent errata will link to the relevant pull request in the WHATWG repository,  and summarize the status of the pull request.
+</li>
+</ol>
+</section>
+<section id='transition'><h2><span class='number'>8</span>	Transition Plan</h2>
+
+<ol>
+<li>
+W3C agrees to discontinue its release plans for W3C versions of HTML 5.3 and DOM 4.1.
+</li>
+<li>
+The process of moving the first Review Draft to be a W3C Recommendation may not begin for a number of months after the signing of this MOU.
+</li>
+<li>
+For the specifications that are parts of the WHATWG HTML and DOM specifications but published as separate specifications at W3C, the W3C will:
+<ol>
+<li>
+stop publishing separate versions of the specifications,
+</li>
+<li>
+replace the latest drafts with specifications referring to both the W3C and WHATWG versions of HTML or DOM as appropriate (for Recommendations, by marking them as Superseded when the next Review Draft reaches Recommendation; for others by republishing them as a W3C Working Group Note directing readers to the WHATWG document), and
+</li>
+<li>
+when other specifications reference this material, reference HTML or DOM (as appropriate) based on the referencing policy described above.
+</li>
+</ol>
+</li>
+<li>
+Specifications that are part of WHATWG HTML and DOM but published separately at W3C, include the specifications found at the following URLs:
+<ol type='A'>
+<li>
+Recommendations:
+<ol>
+<li>
+<a href='https://www.w3.org/TR/html5/'>https://www.w3.org/TR/html5/</a>  including other URLs under this directory
+</li>
+<li>
+<a href='https://www.w3.org/TR/html50/'>https://www.w3.org/TR/html50/</a>  including other URLs under this directory
+</li>
+<li>
+<a href='https://www.w3.org/TR/html51/'>https://www.w3.org/TR/html51/</a>  including other URLs under this directory
+</li>
+<li>
+<a href='https://www.w3.org/TR/html52/'>https://www.w3.org/TR/html52/</a>  including other URLs under this directory
+</li>
+<li>
+<a href='https://www.w3.org/TR/html/'>https://www.w3.org/TR/html/</a> including other URLs under this directory
+</li>
+<li>
+<a href='https://www.w3.org/TR/webstorage/'>https://www.w3.org/TR/webstorage/</a>
+</li>
+<li>
+<a href='https://www.w3.org/TR/webmessaging/'>https://www.w3.org/TR/webmessaging/</a>
+</li>
+<li>
+<a href='https://www.w3.org/TR/eventsource/'>https://www.w3.org/TR/eventsource/</a>
+</li>
+<li>
+<a href='https://www.w3.org/TR/2dcontext/'>https://www.w3.org/TR/2dcontext/</a>
+</li>
+<li>
+	<a href='https://www.w3.org/TR/dom/'>https://www.w3.org/TR/dom/</a>
+</li>
+</ol>
+</li>
+<li>
+Non-Recommendations:
+<ol>
+<li>
+<a href='https://w3c.github.io/html/'>https://w3c.github.io/html/</a>  including other URLs under this directory
+</li>
+<li>
+<a href='https://www.w3.org/html/wg/drafts/html/master/'>https://www.w3.org/html/wg/drafts/html/master/</a>  including other URLs under this directory
+</li>
+<li>
+<a href='https://www.w3.org/TR/websockets/'>https://www.w3.org/TR/websockets/</a>
+</li>
+<li>
+<a href='https://www.w3.org/TR/2dcontext2/'>https://www.w3.org/TR/2dcontext2/</a>
+</li>
+<li>
+<a href='https://www.w3.org/TR/microdata/'>https://www.w3.org/TR/microdata/</a>
+</li>
+<li>
+<a href='https://www.w3.org/TR/staticrange/'>https://www.w3.org/TR/staticrange/</a>
+</li>
+<li>
+<a href='https://www.w3.org/TR/workers/'>https://www.w3.org/TR/workers/</a>
+</li>
+<li>
+<a href='https://dvcs.w3.org/hg/webperf/raw-file/default/specs/RequestAnimationFrame/Overview.html'>https://dvcs.w3.org/hg/webperf/raw-file/default/specs/RequestAnimationFrame/Overview.html</a>
+</li>
+<li>
+<a href='https://w3c.github.io/dom/'>https://w3c.github.io/dom/</a>
+</li>
+<li>
+	<a href='https://www.w3.org/TR/dom41/'>https://www.w3.org/TR/dom41/</a>
+</li>
+<li>
+	<a href='https://www.w3.org/TR/DOM-Parsing/'>https://www.w3.org/TR/DOM-Parsing/</a>
+</li>
+<li>
+	<a href='https://www.w3.org/TR/html53/'>https://www.w3.org/TR/html53/</a>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>
+W3C agrees to initiate the  process by which it supersedes Recommendations when a Review Draft is endorsed as a REC.
+</li>
+<li>
+Other specifications published by WHATWG
+<p style='margin-top: 0; margin-left: 2ex;'>
+For these other specifications published at WHATWG that are not parts of the WHATWG HTML and DOM specifications, the W3C will:
+</p>
+<ol>
+<li>
+	stop publishing separate versions of the specifications,
+</li>
+<li>
+	replace the latest drafts with specifications referring to the WHATWG version (for Recommendations, by marking them as Superseded; for others by replacing them with a W3C Working Group Note with no copied content), and
+</li>
+<li>
+	prefer that normative references from W3C specifications reference the WHATWG versions.
+</li>
+<li>
+	This includes the specifications found at the following URLs:
+<ol type='A'>
+  <li>
+Recommendations:
+<ol>
+<li>
+	<a href='https://www.w3.org/TR/cors/'>https://www.w3.org/TR/cors/</a>
+</li>
+<li>
+	<a href='https://www.w3.org/TR/progress-events/'>https://www.w3.org/TR/progress-events/</a>
+</li>
+<li>
+	<a href='https://www.w3.org/TR/notifications/'>https://www.w3.org/TR/notifications/</a>
+</li>
+</ol>
+</li>
+<li>
+Non-Recommendations:
+<ol>
+<li>
+	<a href='https://www.w3.org/TR/encoding/'>https://www.w3.org/TR/encoding/</a>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+</section>
+
+<section id='patent_and_copyright'>
+  <h2><span class='number'>9</span>	Patent and Copyright</h2>
+<ol>
+  <li>
+Both Parties shall maintain their own IPR policies to require royalty-free licensing commitments over certain essential patent claims of participants . Participants contributing to HTML and DOM specification documents will be required to accept the WHATWG Intellectual Property Rights Policy in the same manner as they would be required to do so in the absence of this MOU. W3C will rely on these policies for assurance when advancing Review Drafts to REC.
+</li>
+<li>
+Copyright in HTML and DOM Review Drafts jointly published during the Term of this MOU shall be jointly owned by WHATWG (and each of its Steering Group Members) and W3C (and each of its Hosts).
+<ol type='a'>
+<li>
+Review Drafts will be licensed under the Creative Commons Attribution International 4.0 copyright license or successor licenses that are at least as permissive, specified in the WHATWG Intellectual Property Rights Policy.
+<ol type="i">
+<li>
+W3C will not offer the Review Drafts under a different license, with the exception of W3C submissions to ISO/IEC JTC1 and other de jure standards organizations under the PAS Transposition Process &lt;<a title='PAS Transposition Process' href='https://jtc1info.org/page-3/page-4/jtc-1-pas-submitters/'>https://jtc1info.org/page-3/page-4/jtc-1-pas-submitters/</a>>, without the consent of the WHATWG Steering Group. For submissions to JTC1 or other de jure standards organizations identified above, W3C shall notify the WHATWG Steering Group at least 30 days before making the submission and provide a copy of the applicable license.
+</li>
+<li>
+	In case of unconsented-to relicensing of a specification by W3C, W3C will not receive copyright ownership rights in Review Drafts published after such relicensing, and WHATWG may terminate this MOU.
+</li>
+</ol>
+</li>
+<li>
+In case W3C breaches the terms and conditions in the Forking section,W3C will not receive copyright ownership rights in Review Drafts published after such breach. Additionally, WHATWG may terminate this MOU.
+</li>
+<li>
+W3C will not transfer, sell or otherwise convey its copyright rights or interests in the Review Drafts, except to successor entities and to WHATWG and WHATWG Steering Group Members.
+</li>
+<li>
+W3C will not initiate copyright infringement litigation on the Recommendation/Review Drafts without first communicating its intent to the WHATWG Steering Group and providing 60 days advance notice so that WHATWG can attempt to resolve any concerns or to join in the litigation.
+</li>
+<li id='pp2e'>
+W3C will ensure that HTML and DOM Review Drafts jointly published during the Term of this MOU, and any W3C specifications or other documents derived from such HTML and DOM Review Drafts, will retain the WHATWG copyright notice listing WHATWG and the WHATWG Steering Group Members. This obligation will survive the termination of this MOU.
+</li>
+</ol>
+</li>
+<li>
+Joint documents shall be published with the organizational logos of both Parties.
+</li>
+</ol>
+</section>
+<section id='forking'>
+  <h2><span class='number'>10</span>	Forking</h2>
+
+  <ol>
+<li>
+While the copyright licenses of both Parties’ documents permit copying to create derivative works  with appropriate attribution, a goal of this MOU is to avoid such copying for the purpose of specifications.
+</li>
+<li>
+If Parties agree that text should be moved or copied from a deliverable originally published by one to a deliverable published by the other, or that an entire deliverable should be moved across group boundaries, they may mutually agree to do so within the bounds of this MOU. Movement or copying text from incubation-track or non-standards track deliverables shall also be acceptable.
+</li>
+<li>
+If one Party disagrees about proposed or actual textual copying or publication of a derived document, then the WHATWG SG and W3C Management will attempt to negotiate a resolution. In the event that good faith negotiation fails to reach agreement, then termination of this MOU may be permitted as follows:
+<ol>
+<li>
+If W3C publishes a specification derived from text originating in a WHATWG Living Standard produced by an active Workstream, apart from as described above, WHATWG shall have the right to terminate this MOU at the WHATWG's option and/or to criticize the action of publishing.
+</li>
+<li>
+Likewise, if WHATWG publishes a specification derived from text originating in a W3C Recommendation-track document produced by an active Working Group, apart from as described above, the W3C shall have the right to terminate this MOU at the W3C’s option and/or to criticize the action of publishing.
+</li>
+</ol>
+</li>
+</ol>
+</section>
+<section id='term'>
+  <h2><span class='number'>11</span>	Term and Termination</h2>
+<ol>
+  <li>
+This MOU shall take effect on _____ and remain in force until terminated as described herein.
+<p>
+Either Party may give notice of intent to terminate this MOU. The terminating Party shall give nine (9) months notice, to afford the other Party the opportunity to discuss amended terms for collaboration or adapt its practices to the absence of such collaboration. The Binding Commitments  shall survive the termination of this MOU.
+</p>
+</li>
+</ol>
+<p style='margin-left: 0'>
+The obligation in <a href='#pp2e'>Clause 2(e)</a> of the <a href='#patent_and_copyright'>Patent and Copyright</a> section will survive termination of this MOU.
+</p>
+</section>
+<section id='approvals'>
+<h2><span class='number'>12</span> Approvals
+</h2>
+<p style='margin-left: 0'>
+    	This MOU requires approval of the WHATWG Steering Group and W3C. Once agreement is achieved between the Steering Group and W3C Management, the W3C CEO commits to vigorously advocate for this MOU with the W3C Advisory Committee and the W3C Director. The WHATWG Steering Group will similarly get agreement from the WHATWG.
+</p>
+</section>
+<section id='transparency'>
+  <h2><span class='number'>13</span>	Transparency</h2>
+    <p style='margin-left: 0'>
+        <span class='number'>14</span>		This MOU is intended to become a public document and be jointly published as the WHATWG/W3C Joint Working Mode.
+</p>
+</section>
+<section id='limitation'>
+  <h2><span class='number'>15</span>	Limitation of Liability</h2>
+<p style='margin-left: 0'>
+The Non-Binding Commitments do not create any legal rights or obligations under U.S. federal, state, or international law. The Parties hereto acknowledge that the Non-Binding Commitments are non-legally binding between the Parties and do not create any rights in any third party. Any dispute arising in relation to the interpretation, application or implementation of this MOU will be settled amicably by mutual consultation or negotiation between the Parties or by another mutually accepted mode of settlement.
+</p>
+<p style='margin-left: 0'>
+Neither Party shall be liable to the other for any incidental, indirect, special, or consequential damages, including without limitation loss of profits or revenue, or interruption of business in any way arising out of or related to this MOU, regardless of the form of action, even if any representative of the Party has been advised of the possibility of such damages. With regards to direct damages, neither Party will be held liable for any matter(s) related to or arising from this MOU in excess of $1,000 in the aggregate.
+</p>
+</section>
+<section id='law_and_venue'>
+  <h2><span class='number'>16</span>	Choice of Law and Venue</h2>
+  <p style='margin-left: 0'>
+      <span class='number'>17</span>	This MOU shall be governed and construed according to the laws of the United States and the State of California without giving effect to its choice of law principles.
+</p>
+</section>
+<section id='complete_agreement'>
+  <h2><span class='number'>18</span>	Complete Agreement</h2>
+<ol>
+  <li>
+This MOU may be amended only in writing by authorized representatives of each Party;
+</li>
+<li>
+This MOU supersedes any and all other understanding between the Parties on the subject at issue, whether written or oral; and
+</li>
+<li>
+This MOU may not be assigned by either Party without the written permission of the other Party, except to a successor to its business or mission, as appropriate.
+</li>
+<li>
+This Agreement does not create a joint venture.
+</li>
+</ol>
+</section>
+<section id='parties'>
+  <h2><span class='number'>19</span>	Independent Parties</h2>
+  <p style='margin-left: 0'>
+      <span class='number'>20</span>	WHATWG and W3C are independent entities. This MOU will not be construed as creating any agency, partnership, joint venture or any other form of legal association between the Parties, and neither Party will represent to the contrary, whether expressly, impliedly, by appearance, or otherwise.
+</p>
+</section>
+<section id='waiver'>
+  <h2><span class='number'>21</span>	No Waiver; Severability</h2>
+<p style='margin-left: 0'>
+Failure by either Party to enforce any provision of the Binding Commitments not be deemed a waiver of the right to thereafter enforce that or any other provision of the Binding Commitments. If for any reason a court of competent jurisdiction finds any provision of this MOU, or portion thereof, to be unenforceable, that provision of the MOU will be enforced to the maximum extent permissible so as to effect the intent of the parties, and the remainder of this MOU will continue in accordance with the terms set forth herein.
+</p>
+</section>
+<section id='force_majeure'>
+  <h2><span class='number'>22</span>	Force Majeure</h2>
+<p style='margin-left: 0'>
+Neither Party will be liable for any failure or delay in its performance under this MOU due to causes, including, but not limited to, an act of God, act of civil or military authority, fire, epidemic, flood, earthquake, riot, war, sabotage, labor shortage or dispute, and governmental action, which are beyond its reasonable control; provided that the delayed Party: (a) gives the other Party written notice of such cause promptly, and in any event within fifteen (15) days of discovery thereof; and (b) uses its reasonable efforts to correct such failure or delay in its performance. The delayed party’s time for performance or cure under this section will be extended for a period equal to the duration of the cause or sixty (60) days, whichever is less.
+</p>
+</section>
+<section id='notices'>
+  <h2><span class='number'>23</span>	Notices
+</h2>
+<p style='margin-left: 0'>
+Any notice required to be given pursuant to this MOU shall be made in writing and shall be deemed given: (a) when delivered personally; (b) five (5) business days after having been sent by registered or certified mail; or (c) on the date sent by electronic mail.
+</p>
+</section>
+<section id='signatures'>
+  <h2>SIGNATURES</h2>
+<p>
+In witness of the above, the Parties have caused this MOU to be executed by their duly authorized representatives.
+</p>
+<p>
+World Wide Web Consortium
+
+</p>
+<p>
+By: _____________________
+
+</p>
+<p>
+WHATWG
+
+</p>
+<p>
+By: _________________
+
+</p>
+</section>
+<section id='appendix1'>
+  <h2>Appendix 1: Sample Jointly Published Document
+
+</h2>
+<p style='margin-left: 0'>
+<a href='https://www.w3.org/2019/01/whatwg-w3c-sample.html'>https://www.w3.org/2019/01/whatwg-w3c-sample.html</a>
+</p>
+</section>
+</body>
+</html>
